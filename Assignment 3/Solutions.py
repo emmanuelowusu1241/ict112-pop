@@ -1,19 +1,28 @@
 """
-Solutions to assignment 3
-"""
+#Solutions_5240100507_2025.py
+# 1 Reverse the string "Programming"
+text = "Programming"
+print("Reversed string:", text[::-1])
 
-"""
-1.Write a Python program to reverse the string "Programming". Print the reversed string.
-Hint: Use string slicing or a loop.
-"""
+#2 Get initials in uppercase
+initials = ".".join([word[0]. upper() for word in full_name".split()]) +"."
+print("Initials:", initials)
+
+#3 Palindrome checker
+word = input("Enter a word")
+if word == word [::-1]:
+    print("It's a palindrome")
+else: 
+    print("It's not a palindrome")
+
+#4 Word count in a sentence
+sentence = input("Enter sentence:")
+print ("Word count:", len(sentence.split()))
 
 
-
-"""
-2.Create a Python program that takes a user’s full name as input and prints the initials in uppercase.
-Example: Input: "john doe", Output: "J.D."
-"""
-
+#5 Replace "is" with "was" 
+text = "This is a string and it is an example."
+print("Modified string:", text.replace("is", "was"))
 
 
 """
